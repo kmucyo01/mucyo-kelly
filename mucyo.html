@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<head>
+<title>Summer Coats</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ff1a2d;
+    color: white;
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+
+.nav a.active {
+    opacity: 1;
+    font-weight: bold;
+}
+
+/* MAIN SECTION */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+/* LEFT SIDE */
+.left {
+    position: relative;
+    width: 40%;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 50%;
+}
+
+.small-model {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    width: 150px;
+}
+
+/* RIGHT SIDE */
+.right {
+    width: 55%;
+    position: relative;
+}
+
+.big-model {
+    position: absolute;
+    right: 0;
+    top: -40px;
+    width: 300px;
+}
+
+/* TEXT */
+.text {
+    max-width: 400px;
+    z-index: 2;
+}
+
+.text h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.text p {
+    margin: 8px 0;
+}
+
+.stars {
+    margin-top: 5px;
+}
+
+/* BUTTON */
+.btn {
+    margin-top: 20px;
+    width: 200px;
+    height: 20px;
+    background: white;
+    border-radius: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<div class="nav">
+    <a href="new tab">OUTER</a>
+    <a href="new tab">COAT</a>
+    <a href="new tab" class="active">VEST</a>
+    <a href="new tab">WAISTCOAT</a>
+    <a href="new tab">BLAZER</a>
+    <a href="new tab">FASHION</a>
+</div>
+
+<!-- CONTENT -->
+<div class="container">
+
+    <!-- LEFT -->
+    <div class="left">
+        <div class="circle"></div>
+        <!-- Replace image -->
+        <img src="C:\Users\ndind\Music\index.html/small.jpg" class="small-model" alt="small" >
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right">
+
+        <div class="text">
+            <h1>SUMMER COATS</h1>
+            <p><strong>louve collection</strong></p>
+            <p>size 56</p>
+
+            <p><strong>NEW STOCK</strong></p>
+            <div class="stars">★★★★★</div>
+
+            <div class="btn"></div>
+        </div>
+
+        <!-- Replace image -->
+        <img src="C:\Users\ndind\Music\index.html/big.jpg"class="big-model" alt="model">
+    </div>
+
+</div>
+
+</body>
+</html>
